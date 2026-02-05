@@ -1,0 +1,2 @@
+# DiscoverBot
+DiscoverBot for Discord
