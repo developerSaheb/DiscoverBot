@@ -1,2 +1,2 @@
 # DiscoverBot
-DiscoverBot for Discord
+Discover, The Discord Bot
