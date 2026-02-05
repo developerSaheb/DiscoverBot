@@ -11,7 +11,7 @@ DISCORD_TOKEN = os.getenv('TOKEN')
 # Configure Gemini
 genai.configure(api_key=GOOGLE_API_KEY)
 # We use 'gemini-1.5-flash' for speed and a higher free-tier limit
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 def call_gemini(question):
     try:
@@ -38,6 +38,9 @@ async def on_ready():
 async def on_message(message):
     if message.author == client.user:
         return
+
+    if message.content.startswith('$hello'):
+        await message.channel.send('Hello!')
 
     if message.content.startswith('$question'):
         async with message.channel.typing():
