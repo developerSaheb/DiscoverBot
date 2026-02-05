@@ -10,7 +10,7 @@ DISCORD_TOKEN = os.getenv('TOKEN')
 
 # Configure Gemini
 genai.configure(api_key=GOOGLE_API_KEY)
-# We use 'gemini-1.5-flash' for speed and a higher free-tier limit
+
 model = genai.GenerativeModel('gemini-2.5-flash')
 
 def call_gemini(question):
