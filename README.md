@@ -15,12 +15,16 @@ Token for the discord bot: https://discord.com/developers/applications
 OpenAI key: https://platform.openai.com/account/api-keys
 
 # Rapper bot with Gemini
-following commands will run the rapper bot 
-pip install -r requirements.txt
+following commands will run the rapper bot with Gemini 
+
+pip install -r requirements.txt 
+
 python discover_bot_with_gemini.py
 
 
 # Rapper bot with OpenAI
-following commands will run the rapper bot 
-pip install -r requirements.txt
+following commands will run the rapper bot with OpenAI 
+
+pip install -r requirements.txt 
+
 python discover_bot_with_openai.py
