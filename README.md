@@ -9,6 +9,10 @@ This project demonstrates how to build a Discord agent using Python, with option
 * **$question [text]**: The bot takes a question and responds with a freestyle rap answer.
 * **Dual AI Support**: Includes scripts for both OpenAI (GPT-4o) and Google Gemini (Flash).
 
+## .env File
+Update the .env with discord bot token and the key from OpenAI
+Token for the discord bot: https://discord.com/developers/applications
+OpenAI key: https://platform.openai.com/account/api-keys
 
 # Rapper bot with Gemini
 following commands will run the rapper bot 
